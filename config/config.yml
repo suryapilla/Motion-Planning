@@ -1,0 +1,6 @@
+ENV: "maze" # "window", "tower", "single_cube", "room", "monza", "flappy_bird"
+PATH_MAP: "./maps/"
+PLANNER_TYPE: "Astar" # "RRT"
+HEURISTIC_TYPE: 
+              euclidean: e
+              manhattan: m
